@@ -1,4 +1,4 @@
-# 🧑‍💻 Bui Thanh Tung - Android Developer Portfolio
+# 🧑‍💻 Bui Thanh Tung - Fresher Developer Portfolio
 
 Website portfolio cá nhân của mình – gồm các thông tin:
 - Giới thiệu bản thân
