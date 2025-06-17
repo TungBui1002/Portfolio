@@ -29,13 +29,13 @@ function openModal(project) {
     content = `
       <h2>Movie App Online</h2>
       <p>✔️ Phát video dùng ExoPlayer<br>✔️ Lấy dữ liệu từ API phim<br>✔️ MVVM Architecture + Retrofit</p>
-      <a href="https://github.com/TungBui1002/MovieApp" target="_blank">🔗 Xem mã nguồn</a>
+      <a href="https://github.com/TungBui1002/BuildMovieAppOnline.git">🔗 Xem mã nguồn</a>
     `;
   } else if (project === "food") {
     content = `
       <h2>Order Food App</h2>
       <p>✔️ Giao diện đặt món theo menu<br>✔️ Tích hợp Firebase Realtime Database<br>✔️ Xử lý đơn hàng realtime</p>
-      <a href="https://github.com/TungBui1002/FoodApp" target="_blank">🔗 Xem mã nguồn</a>
+      <a href="https://github.com/TungBui1002/oderfoodapp_flutter.git">🔗 Xem mã nguồn</a>
     `;
   }
 
