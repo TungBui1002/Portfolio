@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bui Thanh Tung - Fresher Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+  <!-- Toggle Dark Mode -->
+  <button id="toggle-theme">🌙 / ☀️</button>
+
+  <!-- Hero Section -->
+  <header>
+    <h1 data-aos="fade-down">Bui Thanh Tung</h1>
+    <p data-aos="fade-up">Android Developer | Kotlin • Flutter • Firebase</p>
+    <a href="contact.html" class="contact-btn" data-aos="zoom-in">Liên hệ mình</a>
+  </header>
+
+  <!-- About -->
+  <section id="about" data-aos="fade-up">
+    <h2>🎯 Mục tiêu</h2>
+    <p>Tôi muốn trở thành Android Developer với trải nghiệm thực tế, làm việc hiệu quả và học hỏi liên tục qua dự án.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" data-aos="fade-up">
+    <h2>💻 Kỹ năng</h2>
+    <ul>
+      <li>Kotlin, Flutter, Dart</li>
+      <li>Firebase, Retrofit, SQL, Git</li>
+      <li>Figma, Photoshop, Illustrator</li>
+      <li>Giao tiếp, giải quyết vấn đề, teamwork</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" data-aos="fade-up">
+    <h2>📂 Dự án</h2>
+
+    <div class="project-card">
+      <h3>Movie App Online</h3>
+      <p>Ứng dụng xem phim online, tích hợp ExoPlayer, Retrofit API</p>
+      <button onclick="openModal('movie')">Chi tiết</button>
+    </div>
+
+    <div class="project-card">
+      <h3>Order Food App</h3>
+      <p>App đặt món ăn tích hợp Firebase, realtime data</p>
+      <button onclick="openModal('food')">Chi tiết</button>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">❌</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Bui Thanh Tung. Made with ❤️ & JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>

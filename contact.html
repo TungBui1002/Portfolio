@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên hệ - Bui Thanh Tung</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script>
+    (function() {
+      emailjs.init("your_public_key"); // 👉 THAY bằng public key của bạn
+    })();
+  </script>
+</head>
+<body>
+
+  <h2 class="contact-title">📬 Liên hệ với mình</h2>
+
+  <form id="contact-form" onsubmit="sendEmail(event)" class="contact-form">
+    <label for="user_name">Tên bạn</label>
+    <input type="text" id="user_name" name="user_name" required title="Nhập tên của bạn" placeholder="Nhập tên của bạn">
+    
+    <label for="user_email">Email</label>
+    <input type="email" id="user_email" name="user_email" required title="Nhập email của bạn" placeholder="you@example.com">
+
+    <label>Nội dung</label>
+    <textarea name="message" rows="6" required title="Nhập nội dung" placeholder="Nhập nội dung" ></textarea>
+    
+    <button type="submit" class="submit-btn">
+      Gửi
+    </button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
